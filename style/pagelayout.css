@@ -40,7 +40,7 @@ body {
 #page-content {
     clear: both;
     float: left;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     width: 100%;
 }
@@ -60,7 +60,7 @@ body {
 	float:left;
 	position:relative;
 	padding:0;
-	overflow:hidden;
+	overflow:auto;
 }
 
 
@@ -405,7 +405,7 @@ div.groupselector {
 }
 
 #userselector_options.collapsibleregion {
-	overflow:hidden;
+	overflow:auto;
 }
 
 .rsslink {
@@ -543,7 +543,7 @@ form.popupform label {
 
 .arrow_button input {
   padding:0.3em;
-  overflow:hidden;
+  overflow:auto;
 }
 
 .groupmanagementtable td {
@@ -2444,7 +2444,7 @@ div.allcoursegrades {
   border:1px solid;
   width:50%;
   margin-left:25%;
-  overflow:hidden;
+  overflow:auto;
 }
 
 .loginbox form {
@@ -2956,7 +2956,7 @@ body.notes .notesgroup {
 /*subnav*/
 .tabrow0 .empty {
   height: 1px;
-  overflow: hidden;
+  overflow: auto;
   padding: 0;
 }
 
@@ -3087,7 +3087,7 @@ div#tag-user-table:after{
  clear:both;
  visibility:hidden;
  height:0;
- overflow:hidden;
+ overflow:auto;
 }
 /* end hack*/
 
@@ -3232,7 +3232,7 @@ table#tag-management-list tr td{
  left:20%;
  border:1px solid #404040;
  background:#fff;
- overflow:hidden;
+ overflow:auto;
  z-index:9050;
 }
 #relatedtags-autocomplete .ysearchquery
@@ -4939,7 +4939,7 @@ font-weight:bold;
 .tabrow0 .empty {
 	margin-top:-1px;
 	height:1px;
-	overflow:hidden;
+	overflow:auto;
 	padding:0;
 	border-top:1px solid #d8dfea;
 }
