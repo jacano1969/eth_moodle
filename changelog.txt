@@ -21,5 +21,3 @@ ETH Moodle
 	
 27-06-12
 	* replaced various icons in pix and pix_core (mainly in the sub directory i), old icons can be found in pix_old
-
-	test 1 2
