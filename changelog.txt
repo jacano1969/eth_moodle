@@ -1,0 +1,23 @@
+ETH Moodle
+
+18-06-12 Otavio Huber ohu@gridds.com
+	* style/node-menunav.css: 
+		.custom_menu_submenu{display:none}
+		.yui3-menu-content ul li:hover>.custom_menu_submenu{display:block;top:25px;}
+	* config.php: added node-menunav to $THEME->sheets
+
+19-06-12 Otavio Huber ohu@gridds.com
+	* config.php: changed $THEME->enable_dock from false to true
+	* style/dock.css: added h2 span {white-space:nowrap;} to fix a bug that made a page break if navigation name contains more than one word
+
+25-06-12 Otavio Huber ohu@gridds.com
+	* style/dock.css: various design changes
+	
+26-06-12
+	* style/pagelayout.css: changed width and height in class #page-admin-theme-index #adminthemeselector img from 100% and 100% to 500px and auto,
+	  theme previews are shown correctly now
+	* style/pagelayout.css: added .yui-skin-sam .yui-panel-container.shadow .underlay {background-color:#DDDDDD;opacity:1;} to make a window better visible
+	* style/pagelayout.css: added .yui-skin-sam .yui-panel-container.shadow {width:95%;} to fix a bug in WebKit browsers that lets you scroll out of the site
+	
+27-06-12
+	* replaced various icons in pix and pix_core (mainly in the sub directory i), old icons can be found in pix_old

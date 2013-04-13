@@ -1,0 +1,135 @@
+/*
+ * These styles are ONLY for IE 6
+ */
+
+.ie6 .tabtree {
+  height: 100%;
+}
+
+.ie6 .tabrow0 {
+  padding-top: 10px;
+}
+
+.ie6 .tabrow0 li {
+  margin-left: 0;
+}
+
+.ie6 .tabrow0 li.first {
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.ie6 .tabrow0 li.last a {
+  margin-right: 0;
+}
+
+.ie6 .tabrow0 li.onerow {
+  margin-right: 0;
+}
+
+.ie6 .tabrow0 a {
+  padding: 0 0 0 13px;
+}
+
+.ie6 .tabrow0 a span {
+  padding: 12px 1em 4px 0;
+}
+
+.ie6 .tabrow0 div,
+.ie6 .tabrow0 ul {
+  top: 3.5em;
+  padding: 0.2em 0;
+}
+
+.ie6 form.mform input {
+  margin-left: expression((this.type=="text"||this.type=="file"||this.type=="password")?'-10px':'0');
+}
+
+.ie6 #admin-user-user_bulk form.mform input,
+.ie6 #admin-user form.mform input {
+  margin-left: 0;
+}
+
+.ie6 form.mform textarea {
+ margin-left: -10px;
+}
+
+.ie6 .que .info {
+  margin-left: 0.6em;
+}
+
+.ie6 #adminsettings .form-setting,
+.ie6 #adminsettings .form-description {
+  display:inline-block; padding-left:2px;
+}
+
+
+.activity .commands{display:inline;} 
+
+
+
+/*
+ * These styles are ONLY for IE 7
+ */
+.ie7 #page-header {
+	background:url([[pix:theme|headerMooNHA75]]) no-repeat; background-color:#051427;
+}
+
+.ie7 .navbar {
+	width:99.5%;
+}
+
+.ie7 .tabrow0 li {
+  margin-left: 0;
+}
+
+.ie7 .tabrow0 li.first {
+  margin-right: -4px;
+}
+
+.ie7 .tabrow0 li.onerow {
+  margin-right: 0;
+}
+
+.ie7 .tabrow0 a {
+  display: inline-block;
+  padding: 8px 0 0.35em 13px;
+  line-height: 1.5em;
+}
+
+.ie7 .tabrow0 a span {
+  padding: 10px 1em 10px 0;
+}
+
+.ie7 .tabrow0 div,
+.ie7 .tabrow0 ul {
+  top: 2.6em;
+  padding: 0.2em 0;
+}
+
+.ie7 .tabrow0 div.empty {
+  margin-right: 0;
+}
+
+.ie7 .block {
+  overflow: hidden;
+}
+
+.ie7 .block .content {
+  word-wrap: break-word;
+}
+
+/*fix for misalignment of text fields in ie */
+.ie7 form.mform input[type=text],
+.ie7 form.mform input[type=file],
+.ie7 form.mform input[type=password] {
+ margin-left: -10px;
+}
+
+.ie7 form.mform textarea {
+ margin-left: -10px;
+}
+
+.ie7 form.mform .fcheckbox input {
+  margin-left: -3px;
+}
