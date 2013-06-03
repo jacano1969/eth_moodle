@@ -167,11 +167,13 @@ table, td, th, li {
 	color: #333333;
 	
 }
-
+/*
+Ths stood in the way of the workaround for table cell borders as detailed here:
+https://tracker.moodle.org/browse/MDL-27774
 td, th {
 	border-style:none !important;
 }
-
+*/
 a:link, a:visited, a {
 	color:#6081BB;
 	cursor:pointer;
