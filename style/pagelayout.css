@@ -5610,3 +5610,7 @@ div#column-main h2.main {
 img.texrender {
    vertical-align: middle !important;
 }
+
+div.que.description > div.content {
+	display: table;
+}
