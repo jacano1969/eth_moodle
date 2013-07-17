@@ -97,8 +97,12 @@ echo $OUTPUT->doctype() ?>
 		              	</div>
 		                <div id="column-left" class="block-column layout-3-column">
 		                    <div class="column-content layout-3-column">
-		                        <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
-		                    </div>
+									<div id="region-pre" class="block-region">
+										<div class="region-content">
+											<?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+										</div>
+									</div>
+								</div>
 		                </div>
 			                <div id="column-right" class="block-column layout-3-column">
 		                    <div class="column-content layout-3-column">
@@ -121,7 +125,11 @@ echo $OUTPUT->doctype() ?>
 		              	</div>
 		                <div id="column-left" class="block-column layout-2-column-left">
 		                    <div class="column-content layout-2-column-left">
-		                        <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+									<div id="region-pre" class="block-region">
+										<div class="region-content">
+											<?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+										</div>
+									</div>
 		                    </div>
 		                </div>
 		   			</div>
@@ -141,7 +149,11 @@ echo $OUTPUT->doctype() ?>
 		              	</div>
 		                <div id="column-right" class="block-column layout-2-column-right">
 		                    <div class="column-content layout-2-column-right">
-		                        <?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+									<div id="region-pre" class="block-region">
+										<div class="region-content">
+											<?php echo $OUTPUT->blocks_for_region('side-pre') ?>
+										</div>
+									</div>
 		                    </div>
 		                </div>
 		   			</div>
